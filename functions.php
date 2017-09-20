@@ -20,7 +20,4 @@ function add_themes_support() {
 // hook the theme support
 add_action('after_setup_theme', 'add_themes_support');
 
-
-
-
  ?>
