@@ -1,0 +1,14 @@
+{
+  "name": "kdu-wordpress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lk22/kdu-wordpress.git",
+  "author": "Leo Knudsen <nightskater-220@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "laravel-elixir": "^6.0.0-16"
+  }
+}
