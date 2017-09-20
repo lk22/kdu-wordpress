@@ -7,7 +7,9 @@ function add_themes_support() {
 	/**
 	 * register navigation menus
 	 */
-
+		register_nav_menus([
+	        'primary' => __('Primary Menu')
+	    ]);
 	/**
 	 * register post formats
 	 */
