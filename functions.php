@@ -21,6 +21,7 @@ function add_themes_support() {
 	/**
 	 * register support for post thumbnails
 	 */
+	add_theme_support('post-thumbnails');
 }
 
 // hook the theme support
