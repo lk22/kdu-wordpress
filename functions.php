@@ -11,7 +11,11 @@ function add_themes_support() {
 	/**
 	 * register post formats
 	 */
-	
+		add_theme_support('post-formats', [
+		    'aside',
+		    'gallery',
+		    'link'
+      	]);	
 	/**
 	 * register support for post thumbnails
 	 */
