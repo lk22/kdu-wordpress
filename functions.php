@@ -8,7 +8,7 @@ function add_themes_support() {
 	 * register navigation menus
 	 */
 		register_nav_menus([
-	        'header' => __('Header Menu');
+	        'header' => __('Header Menu')
 	    ]);
 	/**
 	 * register post formats
