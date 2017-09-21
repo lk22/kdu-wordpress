@@ -3,5 +3,29 @@
  * Author: Leo Knudsen
  * Version: 1.0
  */
+.kdu-header {
+  min-height: 100px;
+  width: 100%;
+}
+
+.kdu-header .logo-wrapper .logo {
+  margin-top: 2rem;
+}
+
+.kdu-header .kdu-navigation {
+  padding-top: 3rem;
+}
+
+.kdu-header .kdu-navigation .menu ul .page_item {
+  display: inline;
+  list-style-type: none;
+  margin-left: 2rem;
+}
+
+.kdu-header .kdu-navigation .menu ul .page_item a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+@import '../mixins/navigation';
+.kdu-header{
+	min-height: 100px;
+	width: 100%;
+	
+	.logo-wrapper{
+		.logo{
+			margin-top: 2rem;
+		}
+	}
+	
+	.kdu-navigation{
+		padding-top:3rem;
+		@include navigation(inline, #000, none, 20px);
+	}
+}

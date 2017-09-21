@@ -1,3 +1,17 @@
-@mixin navigation($display, $color, $decoration) {
-	
+@mixin navigation($display, $color, $decoration, $fontsize) {
+	.menu{
+		ul{
+			.page_item{
+				display: $display;
+				list-style-type: none;
+				margin-left: 2rem;
+				
+				a{
+					color: $color;
+					text-decoration: $decoration;
+					font-size: $fontsize;
+				}
+			}
+		}
+	}
 }
