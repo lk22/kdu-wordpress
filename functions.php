@@ -34,4 +34,10 @@ add_action('after_setup_theme', 'add_themes_support');
 
 // hook up the resource script loading
 add_action('wp_enqueue_scripts', 'load_themes_resources');
- ?>
+
+/**
+ * wrapper for loading partials
+ */
+function load($component) {
+	require('components/' . $component . '.php');
+}

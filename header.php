@@ -21,4 +21,6 @@
 	?>
 </head>
 <body class="<?php body_class(); ?>">
+
+<?php load('header'); ?>
 	
