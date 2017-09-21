@@ -1,0 +1,13 @@
+@mixin background($definition) {
+	@if($definition = transparent) {
+		background: transparent;
+	}
+
+	@if($definition = default) {
+		background: #eee;
+	}
+
+	@if($definition = inverse) {
+		background: #000;
+	}
+}
