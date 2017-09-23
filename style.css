@@ -3,9 +3,75 @@
  * Author: Leo Knudsen
  * Version: 1.0
  */
+.Home-content.container-fluid {
+  margin-left: -8px;
+  margin-right: -23px;
+}
+
+.Home-content .Home-content__cover {
+  min-height: 600px;
+  width: 100%;
+  color: #fff;
+  padding: 100px;
+  font-family: 'Raleway', sans-serif;
+  background: url("http://leoknudsen-wordpress.dev/wp-content/uploads/2017/06/pexels-photo-574069_web.jpg") center center;
+  background-size: cover;
+}
+
+.Home-content .Home-content__cover .cover__headline {
+  font-size: 50px;
+}
+
+.Home-content .Home-content__cover .cover__tagline {
+  font-size: 25px;
+  margin-left: 20rem;
+}
+
+.Home-content .Home-content__cover .see-more-container {
+  padding-left: 45%;
+  padding-right: 45%;
+  padding-top: 25%;
+}
+
+.Home-content .Home-content__cover .see-more-container .see-more-container__link-icon {
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.Home-content .Home-content__skills {
+  min-height: 700px;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.Home-content .Home-content__skills .skills__wrapper {
+  padding: 5rem;
+}
+
+.Home-content .Home-content__skills .skills__wrapper .skill-container {
+  padding: 3rem;
+}
+
+.Home-content .Home-content__skills .skills__wrapper .skill-container .skill-container__icon {
+  text-align: center;
+}
+
+.Home-content .Home-content__skills .skills__wrapper .skill-container .skill-container__icon .fa {
+  font-size: 15rem;
+  color: #00A6F9;
+  text-align: center;
+}
+
+.Home-content .Home-content__skills .skills__wrapper .skill-container .skill-container__tagline h5 {
+  font-size: 18px;
+  text-align: center;
+}
+
 .kdu-header {
   min-height: 100px;
   width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
 }
 
 .kdu-header .logo-wrapper .logo {
@@ -25,7 +91,11 @@
 .kdu-header .kdu-navigation .menu ul .page_item a {
   color: #000;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

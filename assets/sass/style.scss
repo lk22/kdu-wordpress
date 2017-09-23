@@ -6,3 +6,7 @@
 @import './components/_all';
 @import './vars/_all';
 @import './mixins/_all';
+
+html, body{
+	overflow-x: hidden;
+}

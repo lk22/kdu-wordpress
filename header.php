@@ -10,7 +10,7 @@
 
     <!-- fontawesome -->
     <script src="https://use.fontawesome.com/5964f513fc.js"></script>
-
+<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
     <?php
 
 		/**
@@ -20,6 +20,7 @@
 	?>
 </head>
 <body class="<?php body_class(); ?>">
+
 
 <?php load('header'); ?>
 	

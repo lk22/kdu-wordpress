@@ -1,7 +1,10 @@
 @import '../mixins/navigation';
+@import '../mixins/background';
 .kdu-header{
 	min-height: 100px;
 	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #eee;
 	
 	.logo-wrapper{
 		.logo{
@@ -11,6 +14,6 @@
 	
 	.kdu-navigation{
 		padding-top:3rem;
-		@include navigation(inline, #000, none, 20px);
+		@include navigation(inline, #000, none, 18px);
 	}
 }

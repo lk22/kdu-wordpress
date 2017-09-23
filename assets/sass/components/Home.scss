@@ -1,0 +1,65 @@
+.Home-content{
+	&.container-fluid{
+		margin-left:-8px;
+		margin-right:-23px;
+	}
+	.Home-content__cover{
+		min-height: 600px;
+		width:100%;
+		color:#fff;
+		padding:100px;
+		font-family: 'Raleway', sans-serif;
+		background: url('http://leoknudsen-wordpress.dev/wp-content/uploads/2017/06/pexels-photo-574069_web.jpg') center center;
+		background-size: cover;
+			
+		.cover__headline{
+			font-size:50px;
+		}
+
+		.cover__tagline{
+			font-size:25px;
+			margin-left: 20rem;
+		}
+
+		.see-more-container{
+			padding-left: 45%;
+			padding-right: 45%;
+			padding-top:25%;
+			
+			.see-more-container__link-icon{
+				margin-left:20%;
+				margin-right:5%;
+			}
+		}
+	}
+
+	.Home-content__skills{
+		min-height:700px;
+		width: 100%;
+		font-family:'Raleway', sans-serif;
+		
+		.skills__wrapper{
+			padding:5rem;	
+			
+			.skill-container{
+				padding:3rem;
+				
+				.skill-container__icon{
+					text-align:center;
+					.fa{
+						font-size:15rem;
+						color: #00A6F9;
+						text-align:center;
+					}
+				}
+
+				.skill-container__tagline{
+					h5{
+						font-size:18px;
+						text-align:center;
+					}
+				}
+			}
+		}
+	}
+}

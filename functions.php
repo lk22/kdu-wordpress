@@ -41,3 +41,26 @@ add_action('wp_enqueue_scripts', 'load_themes_resources');
 function load($component) {
 	require('components/' . $component . '.php');
 }
+
+/**
+ * get title name of the page
+ *
+ * @return void
+ */
+function page_title(){
+      global $post;
+      return $post->post_title;
+}
+
+/**
+ * dumping debugging data to screen
+ * */
+function debug($data){
+      echo "<pre>";
+      var_dump($data);
+      echo "</pre>";
+}
+
+function add_menu($nav = ['theme_location' => 'primary']) {
+	wp_nav_menu($nav);
+}
