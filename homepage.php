@@ -15,7 +15,7 @@
 		<div class="see-more-container">
 			<!-- link container -->
 			<div class="see-more-container__link center-block">
-				<p class="link__see-more">se mere</p>
+				<p class="link__see-more text-center">se mere</p>
 
 				<!-- link icon -->
 				<div class="see-more-container__link-icon">
@@ -76,7 +76,7 @@
 
 				<!-- tagline  -->
 				<div class="skill-container__tagline">
-					<h5 class="text-left">Skalerbart design</h5>
+					<h5 class="text-left">Hosting og Vejledning</h5>
 				</div><!-- tagline end -->
 
 			</div><!-- skill container end -->
@@ -97,4 +97,8 @@
 			</div><!-- skill container end -->
 		</div> <!-- skills wrapper end -->
 	</div><!-- skills content container end -->
+
+
+	<!-- contact wrapper -->
+
 </div> <!-- Home content end -->
