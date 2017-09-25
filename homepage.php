@@ -15,7 +15,7 @@
 		<div class="see-more-container">
 			<!-- link container -->
 			<div class="see-more-container__link center-block">
-				<p class="link__see-more">se mere</p>
+				<p class="link__see-more text-center">se mere</p>
 
 				<!-- link icon -->
 				<div class="see-more-container__link-icon">
@@ -76,7 +76,7 @@
 
 				<!-- tagline  -->
 				<div class="skill-container__tagline">
-					<h5 class="text-left">Skalerbart design</h5>
+					<h5 class="text-left">Hosting og Vejledning</h5>
 				</div><!-- tagline end -->
 
 			</div><!-- skill container end -->
@@ -97,4 +97,31 @@
 			</div><!-- skill container end -->
 		</div> <!-- skills wrapper end -->
 	</div><!-- skills content container end -->
+
+	<!-- cases wrapper container -->
+	<div class="container-fluid content cases <?php echo page_title(); ?>-content__cases">
+
+		<!-- case container -->
+		<div class="row case case-container">
+
+			<!-- case container image -->
+			<div class="col-md-4 col-lg-4 case-container__image">
+				
+				img
+
+			</div><!-- case container image end -->
+
+			<!-- case information -->
+			<div class="col-md-8 col-lg-8 case-container__info">
+				<h3 class="case-info__title">Lorem Ipsum</h3>
+
+				<h5 class="case-info__description">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore asperiores ullam laborum, officia, corrupti, quia ad veniam nulla cum quos, numquam? Consequuntur ad earum reprehenderit enim, accusamus veniam debitis adipisci.
+				</h5>
+
+				<a href="#" class="case-info__link">loremipsum.dk</a>
+			</div> <!-- case information end -->
+		</div> <!-- case container end -->
+	</div> <!-- case wrapper container end -->
+
 </div> <!-- Home content end -->

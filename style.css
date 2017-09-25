@@ -34,7 +34,7 @@
 }
 
 .Home-content .Home-content__cover .see-more-container .see-more-container__link-icon {
-  margin-left: 20%;
+  margin-left: 45%;
   margin-right: 5%;
 }
 
@@ -65,6 +65,20 @@
 .Home-content .Home-content__skills .skills__wrapper .skill-container .skill-container__tagline h5 {
   font-size: 18px;
   text-align: center;
+}
+
+.Home-content .Home-content__cases {
+  min-height: 700px;
+  width: 100%;
+  padding: 3rem;
+  font-family: 'Raleway', sans-serif;
+  background: #2D75B9;
+  margin-left: -10px;
+}
+
+.Home-content .Home-content__cases .case-container {
+  padding: 1rem;
+  min-height: 175px;
 }
 
 .kdu-header {

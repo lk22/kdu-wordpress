@@ -1,8 +1,11 @@
+// Home content
 .Home-content{
 	&.container-fluid{
 		margin-left:-8px;
 		margin-right:-23px;
 	}
+
+	// Cover
 	.Home-content__cover{
 		min-height: 600px;
 		width:100%;
@@ -12,38 +15,47 @@
 		background: url('http://leoknudsen-wordpress.dev/wp-content/uploads/2017/06/pexels-photo-574069_web.jpg') center center;
 		background-size: cover;
 			
+		// Headline
 		.cover__headline{
 			font-size:50px;
 		}
 
+		// Tagline
 		.cover__tagline{
 			font-size:25px;
 			margin-left: 20rem;
 		}
 
+		// see more container
 		.see-more-container{
 			padding-left: 45%;
 			padding-right: 45%;
 			padding-top:25%;
 			
+			// link icon
 			.see-more-container__link-icon{
-				margin-left:20%;
+				margin-left:45%;
 				margin-right:5%;
-			}
-		}
-	}
+			}  // link icon end
+		} // see more container end
+	} // cover end
 
+	// skills container
 	.Home-content__skills{
 		min-height:700px;
 		width: 100%;
 		font-family:'Raleway', sans-serif;
 		
+		// wrapper 
 		.skills__wrapper{
 			padding:5rem;	
 			
+			// wrapper container
 			.skill-container{
 				padding:3rem;
+
 				
+				// skill icon
 				.skill-container__icon{
 					text-align:center;
 					.fa{
@@ -51,15 +63,45 @@
 						color: #00A6F9;
 						text-align:center;
 					}
-				}
+				} // skill icon end
 
+				// skill tagline
 				.skill-container__tagline{
 					h5{
 						font-size:18px;
 						text-align:center;
 					}
+				} // skill container tagline
+			} // wrapper container
+		} // wrapper end
+	} // skills container end
+	
+	// case wrapper
+	.Home-content__cases{
+		min-height: 700px;
+		width: 100%;
+		padding: 3rem;
+		font-family: 'Raleway', sans-serif;
+		background: #2D75B9;
+		margin-left: -15px;
+		
+		// case container
+		.case-container{
+			padding: 1rem;
+			min-height: 175px;
+			
+			// case image
+			.case-container__image{
+				
+			}
+
+			// case info
+			.case-container__info{
+				.case-info__title{
+					
 				}
 			}
 		}
 	}
-}
+
+} // home content end
