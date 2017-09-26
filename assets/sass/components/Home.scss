@@ -1,12 +1,12 @@
 // Home content
-.Home-content{
+.homepage-content{
 	&.container-fluid{
 		margin-left:-8px;
 		margin-right:-23px;
 	}
 
 	// Cover
-	.Home-content__cover{
+	.homepage-content__cover{
 		min-height: 600px;
 		width:100%;
 		color:#fff;
@@ -21,7 +21,7 @@
 		}
 
 		// Tagline
-		.cover__tagline{
+		.cover__tagline-desktop{
 			font-size:25px;
 			margin-left: 20rem;
 		}
@@ -41,7 +41,7 @@
 	} // cover end
 
 	// skills container
-	.Home-content__skills{
+	.homepage-content__skills{
 		min-height:700px;
 		width: 100%;
 		font-family:'Raleway', sans-serif;
@@ -77,18 +77,37 @@
 	} // skills container end
 	
 	// case wrapper
-	.Home-content__cases{
+	.homepage-content__cases{
 		min-height: 700px;
 		width: 100%;
-		padding: 3rem;
+		padding: 5rem;
 		font-family: 'Raleway', sans-serif;
 		background: #2D75B9;
 		margin-left: -15px;
+		
+		.cases__tagline{
+			color: #fff;
+		}
+
+		hr{
+			width: 109%;
+   			margin-left: -48px;
+		}
 		
 		// case container
 		.case-container{
 			padding: 1rem;
 			min-height: 175px;
+			background: #fff;
+			margin-bottom:1px;
+			margin-top: 1px;
+			border: 2px solid #2196F3;
+			
+			
+			&.case__blue{
+				background:#1C4E7D;
+				color: #fff;
+			}
 			
 			// case image
 			.case-container__image{

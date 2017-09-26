@@ -1,13 +1,18 @@
 <!-- 
 	Home Content
  -->
-<div class="container-fluid page content <?php echo page_title(); ?>-content">
+<div class="container-fluid page content homepage-content">
 	<!-- 
 		cover section
 	 -->
-	<div class="row <?php echo page_title(); ?>-content__cover">
+	<div class="row homepage-content__cover">
 		<h1 class="text-center cover__headline">VEJLEDNING OG UDVIKLING</h1>
-		<h4 class="cover__tagline">af din nye hjemmeside</h4>
+
+		<!-- tagline on desktop -->
+		<h4 class="cover__tagline-desktop hidden-xs hidden-sm">af din nye hjemmeside</h4>
+
+		<!-- tagline on mobile -->
+		<h4 class="cover__tagline-mobile hidden-md hidden-lg">af din nye hjemmeside</h4>
 
 		<!-- 
 			see more container
@@ -29,7 +34,9 @@
 	<!-- 
 		skills content container
 	 -->
-	<div class="row <?php echo page_title(); ?>-content__skills">
+	<div class="row homepage-content__skills">
+
+		<h2 class="text-center skills__tagline">Erfaringer og arbejde</h2>
 
 		<!-- 
 			wrapper
@@ -99,10 +106,13 @@
 	</div><!-- skills content container end -->
 
 	<!-- cases wrapper container -->
-	<div class="container-fluid content cases <?php echo page_title(); ?>-content__cases">
+	<div class="container-fluid content cases homepage-content__cases">
+
+		<h2 class="text-center cases__tagline">Cases</h2>
+		<hr>
 
 		<!-- case container -->
-		<div class="row case case-container">
+		<div class="row case case-container case__blue">
 
 			<!-- case container image -->
 			<div class="col-md-4 col-lg-4 case-container__image">
@@ -112,16 +122,89 @@
 			</div><!-- case container image end -->
 
 			<!-- case information -->
-			<div class="col-md-8 col-lg-8 case-container__info">
-				<h3 class="case-info__title">Lorem Ipsum</h3>
+			<div class="col-md-5 col-lg-5 case-container__info">
 
+				<!-- case title -->
+				<h3 class="case-info__title">Lorem Ipsum</h3>
+	
+				<!-- case description -->
 				<h5 class="case-info__description">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore asperiores ullam laborum, officia, corrupti, quia ad veniam nulla cum quos, numquam? Consequuntur ad earum reprehenderit enim, accusamus veniam debitis adipisci.
 				</h5>
 
+				<!-- case link -->
 				<a href="#" class="case-info__link">loremipsum.dk</a>
 			</div> <!-- case information end -->
 		</div> <!-- case container end -->
+
+		<!-- case container -->
+		<div class="row case case-container">
+			<!-- case info -->
+			<div class="col-md-5 col-lg-5 case-container-info">
+				<!-- case title -->
+				<h3 class="case-info__title">Lorem Ipsum</h3>
+	
+				<!-- case description -->
+				<h5 class="case-info__description">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore asperiores ullam laborum, officia, corrupti, quia ad veniam nulla cum quos, numquam? Consequuntur ad earum reprehenderit enim, accusamus veniam debitis adipisci.
+				</h5>
+
+				<!-- case link -->
+				<a href="#" class="case-info__link">loremipsum.dk</a>
+			</div><!-- case information end -->
+
+			<div class="col-md-4 col-lg-4 case-container__image">
+				img
+			</div>
+		</div> <!-- case container end -->
+
+		<!-- case container -->
+		<div class="row case case-container case__blue">
+
+			<!-- case container image -->
+			<div class="col-md-4 col-lg-4 case-container__image">
+				
+				img
+
+			</div><!-- case container image end -->
+
+			<!-- case information -->
+			<div class="col-md-5 col-lg-5 case-container__info">
+
+				<!-- case title -->
+				<h3 class="case-info__title">Lorem Ipsum</h3>
+	
+				<!-- case description -->
+				<h5 class="case-info__description">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore asperiores ullam laborum, officia, corrupti, quia ad veniam nulla cum quos, numquam? Consequuntur ad earum reprehenderit enim, accusamus veniam debitis adipisci.
+				</h5>
+
+				<!-- case link -->
+				<a href="#" class="case-info__link">loremipsum.dk</a>
+			</div> <!-- case information end -->
+		</div> <!-- case container end -->
+		
+		<!-- case container -->
+		<div class="row case case-container">
+			<!-- case info -->
+			<div class="col-md-5 col-lg-5 case-container-info">
+				<!-- case title -->
+				<h3 class="case-info__title">Lorem Ipsum</h3>
+	
+				<!-- case description -->
+				<h5 class="case-info__description">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore asperiores ullam laborum, officia, corrupti, quia ad veniam nulla cum quos, numquam? Consequuntur ad earum reprehenderit enim, accusamus veniam debitis adipisci.
+				</h5>
+
+				<!-- case link -->
+				<a href="#" class="case-info__link">loremipsum.dk</a>
+			</div><!-- case information end -->
+
+			<div class="col-md-4 col-lg-4 case-container__image">
+				img
+			</div>
+		</div> <!-- case container end -->
+
 	</div> <!-- case wrapper container end -->
 
 </div> <!-- Home content end -->

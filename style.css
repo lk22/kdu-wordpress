@@ -3,12 +3,12 @@
  * Author: Leo Knudsen
  * Version: 1.0
  */
-.Home-content.container-fluid {
+.homepage-content.container-fluid {
   margin-left: -8px;
   margin-right: -23px;
 }
 
-.Home-content .Home-content__cover {
+.homepage-content .homepage-content__cover {
   min-height: 600px;
   width: 100%;
   color: #fff;
@@ -18,67 +18,85 @@
   background-size: cover;
 }
 
-.Home-content .Home-content__cover .cover__headline {
+.homepage-content .homepage-content__cover .cover__headline {
   font-size: 50px;
 }
 
-.Home-content .Home-content__cover .cover__tagline {
+.homepage-content .homepage-content__cover .cover__tagline-desktop {
   font-size: 25px;
   margin-left: 20rem;
 }
 
-.Home-content .Home-content__cover .see-more-container {
+.homepage-content .homepage-content__cover .see-more-container {
   padding-left: 45%;
   padding-right: 45%;
   padding-top: 25%;
 }
 
-.Home-content .Home-content__cover .see-more-container .see-more-container__link-icon {
+.homepage-content .homepage-content__cover .see-more-container .see-more-container__link-icon {
   margin-left: 45%;
   margin-right: 5%;
 }
 
-.Home-content .Home-content__skills {
+.homepage-content .homepage-content__skills {
   min-height: 700px;
   width: 100%;
   font-family: 'Raleway', sans-serif;
 }
 
-.Home-content .Home-content__skills .skills__wrapper {
+.homepage-content .homepage-content__skills .skills__wrapper {
   padding: 5rem;
 }
 
-.Home-content .Home-content__skills .skills__wrapper .skill-container {
+.homepage-content .homepage-content__skills .skills__wrapper .skill-container {
   padding: 3rem;
 }
 
-.Home-content .Home-content__skills .skills__wrapper .skill-container .skill-container__icon {
+.homepage-content .homepage-content__skills .skills__wrapper .skill-container .skill-container__icon {
   text-align: center;
 }
 
-.Home-content .Home-content__skills .skills__wrapper .skill-container .skill-container__icon .fa {
+.homepage-content .homepage-content__skills .skills__wrapper .skill-container .skill-container__icon .fa {
   font-size: 15rem;
   color: #00A6F9;
   text-align: center;
 }
 
-.Home-content .Home-content__skills .skills__wrapper .skill-container .skill-container__tagline h5 {
+.homepage-content .homepage-content__skills .skills__wrapper .skill-container .skill-container__tagline h5 {
   font-size: 18px;
   text-align: center;
 }
 
-.Home-content .Home-content__cases {
+.homepage-content .homepage-content__cases {
   min-height: 700px;
   width: 100%;
-  padding: 3rem;
+  padding: 5rem;
   font-family: 'Raleway', sans-serif;
   background: #2D75B9;
-  margin-left: -10px;
+  margin-left: -15px;
 }
 
-.Home-content .Home-content__cases .case-container {
+.homepage-content .homepage-content__cases .cases__tagline {
+  color: #fff;
+}
+
+.homepage-content .homepage-content__cases hr {
+  width: 109%;
+  margin-left: -48px;
+}
+
+.homepage-content .homepage-content__cases .case-container {
   padding: 1rem;
   min-height: 175px;
+  background: #fff;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  border: 2px solid #2196F3;
+}
+
+.homepage-content .homepage-content__cases .case-container.case__blue {
+  background: #1C4E7D;
+  color: #fff;
 }
 
 .kdu-header {
