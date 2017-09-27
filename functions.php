@@ -11,7 +11,6 @@ if(!isset($content_width)) {
  * setup version compatability
  */
 if( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
-	//  todo 2 (version) : assign version comparement statement 
 	return;	
 }
 
@@ -84,7 +83,7 @@ if( function_exists('get_custom_logo') ) {
  * @param  [type] $src [description]
  * @return [type]      [description]
  */
-function add_logo($id, $src) {
+function   ($id, $src) {
 	$custom_logo_id = get_theme_mod($id);
 	$logo = wp_get_attachment_image_src($custom_logo_id, $src);
 
@@ -132,26 +131,8 @@ function add_menu($nav = ['theme_location' => 'primary']) {
 	wp_nav_menu($nav);
 }
 
-
 /**
- * customization registrations
+ * customization template
  */
+require('customization.php');
 
-	/**
-	 * register theme customization
-	 * @param  [type] $wp_customize [description]
-	 * @return [type]               [description]
-	 */
-	function theme_customize_register( $wp_customize ) {
-		// $wp_customize->add_panel();
-		// $wp_customize->get_panel();
-		// $wp_customize->remove_panel();
-	}
-	add_action('customize_register', 'theme_customize_register');
-
-	/**
-	 * applying a WordPress setting
-	 */
-	function apply_setting($wp_customize, $setting_id, $settings = array() ){
-		$wp_customize->add_setting($setting_id, $settings);
-	}
