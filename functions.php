@@ -1,6 +1,21 @@
 <?php 
 
 /**
+ * add content width 
+ */
+if(!isset($content_width)) {
+	$content_width = 1280;
+}
+
+/**
+ * setup version compatability
+ */
+if( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
+	//  todo 2 (version) : assign version comparement statement 
+	return;	
+}
+
+/**
  * add various theme support
  */
 function add_themes_support() {
@@ -28,6 +43,14 @@ function add_themes_support() {
 	 * register support for post thumbnails
 	 */
 	add_theme_support('post-thumbnails');
+
+	/**
+	 * add rss feed support to the theme
+	 */
+	add_theme_support('automatic-feed-links');
+
+	/** add support for title-tag */
+	add_theme_support('title-tag');
 }
 
 /**
