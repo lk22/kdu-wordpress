@@ -107,22 +107,18 @@
 
 	<!-- cases wrapper container -->
 	<div class="container-fluid content cases homepage-content__cases">
-
-		<h2 class="text-center cases__tagline">Cases</h2>
-		<hr>
-
 		<!-- case container -->
 		<div class="row case case-container case__blue">
 
 			<!-- case container image -->
-			<div class="col-md-4 col-lg-4 case-container__image">
+			<div class="col-md-6 col-lg-6 case-container__image">
 				
 				img
 
 			</div><!-- case container image end -->
 
 			<!-- case information -->
-			<div class="col-md-5 col-lg-5 case-container__info">
+			<div class="col-md-6 col-lg-6 case-container__info">
 
 				<!-- case title -->
 				<h3 class="case-info__title">Lorem Ipsum</h3>
@@ -140,7 +136,7 @@
 		<!-- case container -->
 		<div class="row case case-container">
 			<!-- case info -->
-			<div class="col-md-5 col-lg-5 case-container-info">
+			<div class="col-md-6 col-lg-6 case-container-info">
 				<!-- case title -->
 				<h3 class="case-info__title">Lorem Ipsum</h3>
 	
@@ -153,7 +149,7 @@
 				<a href="#" class="case-info__link">loremipsum.dk</a>
 			</div><!-- case information end -->
 
-			<div class="col-md-4 col-lg-4 case-container__image">
+			<div class="col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 case-container__image">
 				img
 			</div>
 		</div> <!-- case container end -->
@@ -162,14 +158,14 @@
 		<div class="row case case-container case__blue">
 
 			<!-- case container image -->
-			<div class="col-md-4 col-lg-4 case-container__image">
+			<div class="col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 case-container__image">
 				
 				img
 
 			</div><!-- case container image end -->
 
 			<!-- case information -->
-			<div class="col-md-5 col-lg-5 case-container__info">
+			<div class="col-md-6 col-lg-6 case-container__info">
 
 				<!-- case title -->
 				<h3 class="case-info__title">Lorem Ipsum</h3>
@@ -187,7 +183,7 @@
 		<!-- case container -->
 		<div class="row case case-container">
 			<!-- case info -->
-			<div class="col-md-5 col-lg-5 case-container-info">
+			<div class="col-md-6 col-lg-6 case-container-info">
 				<!-- case title -->
 				<h3 class="case-info__title">Lorem Ipsum</h3>
 	
@@ -200,7 +196,7 @@
 				<a href="#" class="case-info__link">loremipsum.dk</a>
 			</div><!-- case information end -->
 
-			<div class="col-md-4 col-lg-4 case-container__image">
+			<div class="col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 case-container__image">
 				img
 			</div>
 		</div> <!-- case container end -->

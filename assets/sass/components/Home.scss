@@ -7,7 +7,7 @@
 
 	// Cover
 	.homepage-content__cover{
-		min-height: 600px;
+		min-height: 700px;
 		width:100%;
 		color:#fff;
 		padding:100px;
@@ -79,8 +79,7 @@
 	// case wrapper
 	.homepage-content__cases{
 		min-height: 700px;
-		width: 100%;
-		padding: 5rem;
+		width: 101%;
 		font-family: 'Raleway', sans-serif;
 		background: #2D75B9;
 		margin-left: -15px;
@@ -96,14 +95,9 @@
 		
 		// case container
 		.case-container{
-			padding: 1rem;
-			min-height: 175px;
+		    padding: 10rem;
+			min-height: 250px;
 			background: #fff;
-			margin-bottom:1px;
-			margin-top: 1px;
-			border: 2px solid #2196F3;
-			margin-left:10%;
-			margin-right:10%;
 			
 			
 			&.case__blue{

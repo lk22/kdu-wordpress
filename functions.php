@@ -155,4 +155,3 @@ function add_menu($nav = ['theme_location' => 'primary']) {
 	function apply_setting($wp_customize, $setting_id, $settings = array() ){
 		$wp_customize->add_setting($setting_id, $settings);
 	}
-
