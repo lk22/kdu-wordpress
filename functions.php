@@ -65,7 +65,7 @@ function add_logo($id, $src) {
 	$custom_logo_id = get_theme_mod($id);
 	$logo = wp_get_attachment_image_src($custom_logo_id, $src);
 
-	echo (has_custom_logo()) ? '<a href="' . home_url() . '"><img src="' . esc_url($logo[0]) . '"></a>' : '<a href="' . home_url() . '"><h1 class="navbar-brand">' . get_bloginfo('name') . '</h1></a>';
+	echo (has_custom_logo()) ? '<a href="' . home_url() . '"><img height="80" width="175" src="' . esc_url($logo[0]) . '"></a>' : '<a href="' . home_url() . '"><h1 class="navbar-brand">' . get_bloginfo('name') . '</h1></a>';
 }
 
 /** load resource scripts */
@@ -120,9 +120,9 @@ function add_menu($nav = ['theme_location' => 'primary']) {
 	 * @return [type]               [description]
 	 */
 	function theme_customize_register( $wp_customize ) {
-		$wp_customize->add_panel();
-		$wp_customize->get_panel();
-		$wp_customize->remove_panel();
+		// $wp_customize->add_panel();
+		// $wp_customize->get_panel();
+		// $wp_customize->remove_panel();
 	}
 	add_action('customize_register', 'theme_customize_register');
 
