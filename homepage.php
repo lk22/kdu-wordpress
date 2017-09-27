@@ -105,6 +105,7 @@
 		</div> <!-- skills wrapper end -->
 	</div><!-- skills content container end -->
 
+<<<<<<< HEAD
 	<!-- cases wrapper container -->
 	<div class="container-fluid content cases homepage-content__cases">
 
@@ -206,5 +207,9 @@
 		</div> <!-- case container end -->
 
 	</div> <!-- case wrapper container end -->
+=======
+
+	<!-- contact wrapper -->
+>>>>>>> 928b58db1c7b6da8dd4ece89b6dc68d3df2455dd
 
 </div> <!-- Home content end -->
