@@ -186,7 +186,7 @@
 			<div class="col-md-6 col-lg-6 case-container-info">
 				<!-- case title -->
 				<h3 class="case-info__title">Lorem Ipsum</h3>
-	
+		
 				<!-- case description -->
 				<h5 class="case-info__description">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore asperiores ullam laborum, officia, corrupti, quia ad veniam nulla cum quos, numquam? Consequuntur ad earum reprehenderit enim, accusamus veniam debitis adipisci.
